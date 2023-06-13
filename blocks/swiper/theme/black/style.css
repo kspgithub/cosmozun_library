@@ -1,0 +1,12 @@
+:root{
+    --main-color: #383838;
+    --second-color: #3ffb00;
+    --third-color: #757575;
+
+    --main-text-color: #e2e2e2;
+    --second-text-color: #ffffff;
+
+    --active-color: var(--second-color);
+    --disabled-color: var(--third-color);
+
+}

@@ -1,0 +1,29 @@
+{
+    "heading":{
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 100
+    },
+    "descripton":{
+        "type": "text",
+        "GPT": "Описание",
+        "max-length": 200
+    },
+    "BLOCK_client":{
+        "type":"block",
+        "GPT": "Блок с клиентом",
+        "includes":{
+            "name":{
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Имя клиента"
+            },
+            "photo":{
+                "type": "image",
+                "alt": "",
+                "title": "",
+                "GPT": "Изображение клиента"
+            }
+        }
+    }
+}

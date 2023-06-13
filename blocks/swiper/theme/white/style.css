@@ -1,0 +1,12 @@
+:root{
+    --main-color: #fff;
+    --second-color: #fb2900;
+    --third-color: #bebebe;
+
+    --main-text-color: #000;
+    --second-text-color: #202020;
+
+    --active-color: var(--second-color);
+    --disabled-color: var(--third-color);
+}
+
