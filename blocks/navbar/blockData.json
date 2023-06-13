@@ -1,62 +1,74 @@
 {
-    "home": {
-        "type": "text",
-        "GPT": "Заголовок",
-        "max-length": 16
+    "BLOCK_elements": {
+        "type": "block",
+        "GPT": "Элементы навигации",
+        "includes": {
+            "home": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "speaking": {
+                "type": "text",
+                "GPT": "Речь",
+                "max-length": 16
+            },
+            "training": {
+                "type": "text",
+                "GPT": "Тренинг",
+                "max-length": 16
+            },
+            "articles": {
+                "type": "text",
+                "GPT": "Статьи",
+                "max-length": 16
+            },
+            "about": {
+                "type": "text",
+                "GPT": "О нас",
+                "max-length": 16
+            },
+            "contact": {
+                "type": "text",
+                "GPT": "Контакты",
+                "max-length": 16
+            }
+        }
     },
-    "speaking": {
-        "type": "text",
-        "GPT": "Речь",
-        "max-length": 16
-    },
-    "training": {
-        "type": "text",
-        "GPT": "Тренинг",
-        "max-length": 16
-    },
-    "articles": {
-        "type": "text",
-        "GPT": "Статьи",
-        "max-length": 16
-    },
-    "about": {
-        "type": "text",
-        "GPT": "О нас",
-        "max-length": 16
-    },
-    "contact": {
-        "type": "text",
-        "GPT": "Контакты",
-        "max-length": 16
-    },
-    "twitter": {
-        "type": "image",
-        "alt": "Twitter",
-        "title": "Twitter icon",
-        "GPT": "Иконка твиттера"
-    },
-    "instagram": {
-        "type": "image",
-        "alt": "Instagram",
-        "title": "Instagram icon",
-        "GPT": "Иконка инстаграма"
-    },
-    "dev.to": {
-        "type": "image",
-        "alt": "Dev.to",
-        "title": "Dev.to icon",
-        "GPT": "Иконка dev.to"
-    },
-    "linkedin": {
-        "type": "image",
-        "alt": "Linkedin",
-        "title": "Linkedin icon",
-        "GPT": "Иконка linkedin"
-    },
-    "rss": {
-        "type": "image",
-        "alt": "RSS",
-        "title": "RSS icon",
-        "GPT": "Иконка rss"
+    "BLOCK_icons": {
+        "type": "block",
+        "GPT": "Иконки соц. сетей",
+        "includes": {
+            "twitter": {
+                "type": "image",
+                "alt": "Twitter",
+                "title": "Twitter icon",
+                "GPT": "Иконка твиттера"
+            },
+            "instagram": {
+                "type": "image",
+                "alt": "Instagram",
+                "title": "Instagram icon",
+                "GPT": "Иконка инстаграма"
+            },
+            "dev.to": {
+                "type": "image",
+                "alt": "Dev.to",
+                "title": "Dev.to icon",
+                "GPT": "Иконка dev.to"
+            },
+            "linkedin": {
+                "type": "image",
+                "alt": "Linkedin",
+                "title": "Linkedin icon",
+                "GPT": "Иконка linkedin"
+            },
+            "rss": {
+                "type": "image",
+                "alt": "RSS",
+                "title": "RSS icon",
+                "GPT": "Иконка rss"
+            }
+        }
     }
 }
