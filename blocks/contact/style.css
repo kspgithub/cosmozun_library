@@ -1,0 +1,263 @@
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:100;
+ src:local("Poppins Thin"),
+ local("Poppins-Thin"),
+ url("fonts/Poppins-Thin.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:200;
+ src:local("Poppins ExtraLight"),
+ local("Poppins-ExtraLight"),
+ url("fonts/Poppins-ExtraLight.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:300;
+ src:local("Poppins Light"),
+ local("Poppins-Light"),
+ url("fonts/Poppins-Light.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:400;
+ src:local("Poppins"),
+ local("Poppins-Regular"),
+ url("fonts/Poppins-Regular.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:500;
+ src:local("Poppins Medium"),
+ local("Poppins-Medium"),
+ url("fonts/Poppins-Medium.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:600;
+ src:local("Poppins SemiBold"),
+ local("Poppins-SemiBold"),
+ url("fonts/Poppins-SemiBold.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:700;
+ src:local("Poppins Bold"),
+ local("Poppins-Bold"),
+ url("fonts/Poppins-Bold.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:800;
+ src:local("Poppins ExtraBold"),
+ local("Poppins-ExtraBold"),
+ url("fonts/Poppins-ExtraBold.woff2") format("woff2")
+}
+@font-face {
+ font-family:Poppins;
+ font-style:normal;
+ font-weight:900;
+ src:local("Poppins Black"),
+ local("Poppins-Black"),
+ url("fonts/Poppins-Black.woff2") format("woff2")
+}
+a,
+body,
+div,
+h2,
+h6,
+html,
+li,
+p,
+section,
+span,
+ul {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0
+}
+li,
+ul {
+ padding:0;
+ margin:0;
+ list-style:none
+}
+section {
+ display:block
+}
+* {
+ box-sizing:border-box
+}
+body,
+html {
+ font-family:Poppins,sans-serif;
+ font-weight:400;
+ background-color:#fff;
+ font-size:16px;
+ -ms-text-size-adjust:100%;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale
+}
+a {
+ text-decoration:none!important;
+ color:#3cf
+}
+a:hover {
+ color:#fc3
+}
+h2,
+h6 {
+ margin-top:0;
+ margin-bottom:0
+}
+ul {
+ margin-bottom:0
+}
+p {
+ font-size:14px;
+ line-height:25px;
+ color:#2a2a2a
+}
+body,
+html {
+ background:#fff;
+ font-family:Poppins,sans-serif
+}
+::selection {
+ background:#f5a425;
+ color:#fff
+}
+::-moz-selection {
+ background:#f5a425;
+ color:#fff
+}
+@media (max-width:991px) {
+ body,
+ html {
+  overflow-x:hidden
+ }
+}
+section.contact-us {
+ background-image:url(../images/meetings-bg.jpg);
+ background-position:center center;
+ background-attachment:fixed;
+ background-repeat:no-repeat;
+ background-size:cover;
+ padding:140px 0 0 0
+}
+section.contact-us #contact {
+ background-color:#fff;
+ border-radius:20px;
+ padding:40px
+}
+section.contact-us #contact h2 {
+ text-transform:uppercase;
+ color:#1f272b;
+ border-bottom:1px solid #eee;
+ margin-bottom:40px;
+ padding-bottom:20px;
+ font-size:22px;
+ font-weight:700
+}
+section.contact-us #contact input {
+ width:100%;
+ height:40px;
+ border-radius:20px;
+ background-color:#f7f7f7;
+ outline:0;
+ border:none;
+ box-shadow:none;
+ font-size:13px;
+ font-weight:500;
+ color:#7a7a7a;
+ padding:0 15px;
+ margin-bottom:30px
+}
+section.contact-us #contact textarea {
+ width:100%;
+ min-height:140px;
+ max-height:180px;
+ border-radius:20px;
+ background-color:#f7f7f7;
+ outline:0;
+ border:none;
+ box-shadow:none;
+ font-size:13px;
+ font-weight:500;
+ color:#7a7a7a;
+ padding:15px;
+ margin-bottom:30px
+}
+section.contact-us #contact button {
+ font-size:13px;
+ color:#fff;
+ background-color:#a12c2f;
+ padding:12px 30px;
+ display:inline-block;
+ border-radius:22px;
+ font-weight:500;
+ text-transform:uppercase;
+ transition:all .3s;
+ border:none;
+ outline:0
+}
+section.contact-us #contact button:hover {
+ opacity:.9
+}
+section.contact-us .right-info {
+ background-color:#a12c2f;
+ border-radius:20px;
+ padding:40px
+}
+section.contact-us .right-info ul li {
+ display:inline-block;
+ border-bottom:1px solid rgba(250,250,250,.15);
+ margin-bottom:30px;
+ padding-bottom:30px
+}
+section.contact-us .right-info ul li:last-child {
+ margin-bottom:0;
+ padding-bottom:0;
+ border-bottom:none
+}
+section.contact-us .right-info ul li h6 {
+ color:#fff;
+ font-size:15px;
+ font-weight:600;
+ margin-bottom:10px
+}
+section.contact-us .right-info ul li span {
+ display:block;
+ font-size:18px;
+ color:#fff;
+ font-weight:700
+}
+.footer {
+ text-align:center;
+ margin-top:140px;
+ border-top:1px solid rgba(250,250,250,.15);
+ padding:50px 0
+}
+.footer p {
+ text-transform:uppercase;
+ font-size:14px;
+ color:#fff
+}
+.footer p a {
+ color:#f5a425
+}
+@media (max-width:992px) {
+ section.contact-us #contact {
+  margin-bottom:30px
+ }
+}
