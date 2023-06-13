@@ -1,0 +1,17 @@
+{
+    "heading": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "name": {
+        "type": "text",
+        "GPT": "Имя пользователя",
+        "max-length": 200
+    },
+    "password": {
+        "type": "text",
+        "GPT": "Пароль пользователя",
+        "max-length": 200
+    }
+}
