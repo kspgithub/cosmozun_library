@@ -1,0 +1,16 @@
+{
+    "text": {
+        "type": "text",
+        "GPT": "Текст",
+        "max-length": 16
+    },
+    "input": {
+        "type": "input",
+        "GPT": "Поле ввода",
+        "max-length": 16
+    },
+    "button": {
+        "type": "button",
+        "GPT": "Кнопка оправки"
+    }
+}
