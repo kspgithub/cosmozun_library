@@ -1,0 +1,51 @@
+{
+    "BLOCK_menu": {
+        "type": "block",
+        "GPT": "Пункты меню",
+        "includes": {
+            "name": {
+                "type": "link",
+                "GPT": "Название пункта",
+                "max-length": 16
+            }
+        }
+    },
+    "BLOCK_location": {
+        "type": "block",
+        "GPT": "Местонахождение",
+        "includes": {
+            "map:": {
+                "type": "image",
+                "alt": "Location",
+                "title": "Location",
+                "GPT": "Местонахождение"
+            },
+            "info": {
+                "type": "text",
+                "GPT": "Информация",
+                "max-length": 124
+            }
+        }
+    },
+    "BLOCK_social": {
+        "type": "block",
+        "GPT": "Соц. сети",
+        "includes": {
+            "icon": {
+                "type": "icon",
+                "GPT": "Иконка соц. сети",
+                "link": ""
+            }
+        }
+    },
+    "BLOCK_subscribe": {
+        "type": "block",
+        "GPT": "Подписка на рассылку",
+        "includes": {
+            "input": {
+                "type": "input",
+                "GPT": "Ввод почты"
+            }
+        }
+    }
+}
