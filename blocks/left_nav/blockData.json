@@ -1,0 +1,12 @@
+{
+    "heading": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "item": {
+        "type": "text",
+        "GPT": "Пункт меню",
+        "max-length": 16
+    }
+}
