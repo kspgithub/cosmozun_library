@@ -1,0 +1,8 @@
+{
+    "css": {
+        "bootstrap": "css/bootstrap.min.css"
+    },
+    "js": {
+        "jquery": "js/jquery.js"
+    }
+}
