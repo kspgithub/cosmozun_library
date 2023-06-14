@@ -1,0 +1,25 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "BLOCK_person": {
+        "photo": {
+            "type": "image",
+            "GPT": "Фото",
+            "alt": "",
+            "Title": ""
+        },
+        "name": {
+            "type": "text",
+            "GPT": "Имя",
+            "max-length": 32
+        },
+        "place": {
+            "type": "text",
+            "GPT": "Должность",
+            "max-length": 32
+        }
+    }
+}
