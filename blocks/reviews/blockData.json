@@ -1,0 +1,21 @@
+{
+    "BLOCK_review": {
+        "type": "block",
+        "GPT": "Отзыв",
+        "includes": {
+            "grade": {
+                "type": "icon",
+                "GPT": "Оценка"
+            },
+            "review": {
+                "type": "text",
+                "GPT": "Отзыв",
+                "max-length": 64
+            },
+            "company": {
+                "type": "icon",
+                "GPT": "Компания"
+            }
+        }
+    }
+}
