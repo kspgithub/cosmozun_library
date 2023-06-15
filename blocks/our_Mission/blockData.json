@@ -1,0 +1,24 @@
+{
+    "BLOCK_section": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "image:": {
+                "type": "image",
+                "alt": "Image",
+                "title": "Image",
+                "GPT": "Картинка"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 24
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Параграф",
+                "max-length": 256
+            }
+        }
+    }
+}
