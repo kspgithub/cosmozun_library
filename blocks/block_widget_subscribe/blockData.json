@@ -1,0 +1,29 @@
+{
+    "heading": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 100
+    },
+
+    "title": {
+        "type": "text",
+        "GPT": "Подзаголовок",
+        "max-length": 100
+    },
+
+    "BLOCK_form": {
+        "type": "block",
+        "GPT": "Блок с формой",
+        "includes": {
+            "input": {
+                "type": "text",
+                "GPT": "Поле ввода эл.почты"
+            },
+
+            "button": {
+                "type": "button",
+                "GPT": "Кнопка подписаться"
+            }
+        }
+    }
+}
