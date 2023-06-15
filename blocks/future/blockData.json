@@ -1,0 +1,42 @@
+{
+    "BLOCK_img": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "image:": {
+                "type": "image",
+                "alt": "Image",
+                "title": "Image",
+                "GPT": "Картинка"
+            },
+            "BLOCK_card":{
+                "type": "block",
+                "GPT": "Информация",
+                "includes": {
+                "image:": {
+                    "type": "image",
+                    "alt": "Image",
+                    "title": "Image",
+                    "GPT": "Иконка"
+                        },
+                        "heading":{
+                            "type":"text",
+                            "GPT": "Загловок",
+                            "max-length": 16
+                        },
+                        "paragraph": {
+                            "type": "text",
+                            "GPT": "Текст",
+                            "max-length": 256
+                            }
+                        }
+                    }   
+            
+                }
+            }
+        }
+    
+
+    
+        
+    
