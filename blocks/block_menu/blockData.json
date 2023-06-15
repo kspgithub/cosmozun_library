@@ -1,0 +1,36 @@
+{
+    "image":{
+        "type": "image",
+        "GPT": "Картинка меню"
+    },
+
+    "heading": {
+        "type": "text",
+        "GPT": "Заголовок меню",
+        "max-length": 100
+    },
+
+    "BLOCK_menu": {
+        "type":"block",
+        "GPT": "Блок с меню",
+        "includes": {
+            "title": {
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Заголовок товара"
+            },
+
+            "price": {
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Цена товара"
+            },
+
+            "description": {
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Описание товара"
+            }
+        }
+    }
+}

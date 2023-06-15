@@ -1,0 +1,24 @@
+{
+    "BLOCK_card": {
+        "type": "text",
+        "GPT": "Карточка колонка",
+        "includes": {
+            "title": {
+                "type": "text",
+                "GPT": "Заголовок колонки",
+                "max-length": 100
+            },
+
+            "dependencies": {
+                "type": "text",
+                "GPT": "Подзаголовок колонки",
+                "max-length": 100
+            },
+
+            "button": {
+                "type": "button",
+                "GPT": "Кнопка начать"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "BLOCK_buttons": {
+        "type": "block",
+        "GPT": "Блок с кнопками",
+        "includes": {
+            "icon": {
+                "type": "image",
+                "GPT": "Иконка кнопки"
+            },
+
+            "title": {
+                "type": "text",
+                "GPT": "Заголовок кнопки",
+                "max-length": 100
+            }
+        }
+    }
+}

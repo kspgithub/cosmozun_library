@@ -1,0 +1,22 @@
+{
+    "BLOCK_form": {
+        "type": "block",
+        "GPT": "Блок с формой",
+        "includes": {
+            "input": {
+                "type": "input",
+                "GPT": "Поле ввода формы"
+            },
+
+            "textarea": {
+                "type": "textarea",
+                "GPT": "Поле ввода сообщения"
+            },
+
+            "button": {
+                "type": "button",
+                "GPT": "Кнопка отправки сообщения"
+            }
+        }
+    }
+}

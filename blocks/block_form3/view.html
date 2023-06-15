@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="style.css">
+
+
+<div class="form-widget">
+    <div class="form-result"></div>
+    <form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post"
+        novalidate="novalidate"
+        data-onepage-settings="{&quot;offset&quot;:140,&quot;speed&quot;:&quot;1250&quot;,&quot;easing&quot;:&quot;easeInOutExpo&quot;}">
+        <div class="form-process">
+            <div class="css3-spinner">
+                <div class="css3-spinner-scale-ripple">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <input type="text" id="template-contactform-name" name="template-contactform-name" value=""
+                class="form-control border-form-control required valid" placeholder="Name" wfd-id="id1">
+        </div>
+        <div class="col-md-6 mb-4">
+            <input type="email" id="template-contactform-email" name="template-contactform-email" value=""
+                class="required email form-control border-form-control" placeholder="Email Address" wfd-id="id2">
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md-4 mb-4">
+            <input type="text" id="template-contactform-phone" name="template-contactform-phone" value=""
+                class="form-control border-form-control" placeholder="Phone" wfd-id="id3">
+        </div>
+        <div class="col-md-8 mb-4">
+            <input type="text" id="template-contactform-subject" name="subject" value=""
+                class="required form-control border-form-control" placeholder="Subject" wfd-id="id4">
+        </div>
+        <div class="w-100"></div>
+        <div class="col-12 mb-4">
+            <textarea class="required form-control border-form-control valid" id="template-contactform-message"
+                name="template-contactform-message" rows="7" cols="30" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-12 text-center mb-4">
+            <button class="button button-border button-circle fw-medium ms-0 mt-4" type="submit"
+                id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+            <br>
+            <small class="d-block mt-3 text-muted">We'll do our best to get back to you within 6-8
+                working hours.</small>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-12 d-none">
+            <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value=""
+                class="form-control" wfd-id="id5">
+        </div>
+        <input type="hidden" name="prefix" value="template-contactform-" wfd-id="id6">
+    </form>
+</div>

@@ -1,0 +1,1207 @@
+@charset "UTF-8"; /**
+* Template Style
+*
+* [Table of contents]
+*   1 Bootstrap Framework
+*     1.1  Normalize
+*     1.2  Scaffolding
+*     1.3  Type
+*     1.4  Code
+*     1.5  Tables
+*     1.6  Forms
+*     1.7  Buttons
+*     1.8  Grids
+*     1.9  Component animations
+*     1.10 Dropdowns
+*     1.11 Button Groups
+*     1.12 Input Groups
+*     1.13 Navs
+*     1.14 Navbar
+*     1.15 Breadcrumbs
+*     1.16 Pagination
+*     1.17 Pager
+*     1.18 Labels
+*     1.19 Badges
+*     1.20 Jumbotron
+*     1.21 Thumbnails
+*     1.22 Alerts
+*     1.23 Progress bars
+*     1.24 Media
+*     1.25 List Group
+*     1.26 Panels
+*     1.27 Responsive Embed
+*     1.28 Wells
+*     1.29 Close
+*     1.30 Glyphicons
+*     1.31 Modals
+*     1.32 Tooltip
+*     1.33 Popovers
+*     1.34 Carousel
+*     1.35 Utilities
+*     1.36 Responsive Utilities
+*
+*   2 Bootstrap Toolkit Styles
+*     2.1  Reset
+*     2.2  Flex Grid System
+*     2.3  Responsive Text System
+*     2.4  Responsive Pulls System
+*     2.5  Responsive Visibility System
+*     2.6  Type Addons
+*     2.7  Alerts Addons
+*     2.8  Text Styling
+*     2.9  Icons
+*     2.10 Font Awesome
+*     2.11 Material Design Icons
+*     2.12 Thumbnail Addons
+*     2.13 Form Addons
+*     2.14 Responsive Units
+*     2.15 Stacktables
+*     2.16 Sections
+*     2.17 Scaffolding Addons
+*     2.18 Offsets
+*
+*   3 Plugins
+*     3.1  Animate
+*     3.2  Counter
+*     3.3  Isotope
+*     3.4  Owl Carousel
+*     3.6  RD Navbar
+*     3.7  Material Parallax
+*     3.11 Google Maps
+*     3.14 RD Search
+*     3.17 Swiper Slider
+*     3.18 ToTop Button
+*     3.20 Progress Bars
+*     3.29 Select 2
+*/
+/*
+ * Bootstrap Framework
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+    *, *:before, *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a, a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+    background-color: #fff;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #229dd1;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+h4 {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #000;
+}
+
+h4 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    margin: 0 0 12px;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+/*
+ * Bootstrap Toolkit
+ */
+
+p {
+    margin: 0;
+}
+
+.shell {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.shell {
+    min-width: 300px;
+    max-width: 480px;
+}
+
+@media (min-width: 768px) {
+    .shell {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .shell {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .shell {
+        max-width: 1200px;
+    }
+}
+
+.range {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+[class*="cell-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+* + [class*='cell-'] {
+    margin-top: 30px;
+}
+
+.range {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex: 0 1 auto;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.range > [class*='cell'] {
+    -ms-flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 480px) {
+    * + [class*='cell-xs-'] {
+        margin-top: 0;
+    }
+
+    .range > .cell-xs-12 {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    * + [class*='cell-sm-'] {
+        margin-top: 0;
+    }
+
+    .range-sm-center {
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .range > .cell-sm-5 {
+        -webkit-flex-basis: 41.66667%;
+        -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
+        max-width: 41.66667%;
+    }
+}
+
+@media (min-width: 1200px) {
+    * + [class*='cell-lg-'] {
+        margin-top: 0;
+    }
+
+    .range > .cell-lg-3 {
+        -webkit-flex-basis: 25%;
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    color: #000;
+}
+
+h4 a {
+    display: inline;
+    font: inherit;
+    letter-spacing: inherit;
+    transition: .33s all ease;
+}
+
+h4 a, h4 a:active, h4 a:focus {
+    color: inherit;
+}
+
+h4 a:hover {
+    color: #229dd1;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+    h4 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h4 {
+        line-height: 1.36364;
+        font-size: 22px;
+    }
+}
+
+.bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+}
+
+.icon:before {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html .icon-primary {
+    color: #229dd1;
+}
+
+html .icon-md-variant-2 {
+    width: 44px;
+    height: 44px;
+    font-size: 44px;
+    line-height: 44px;
+}
+
+html .icon-decoration-border {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px;
+}
+
+html .icon-decoration-border .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+html .icon-decoration-border:before, html .icon-decoration-border:after, html .icon-decoration-border-inner:before, html .icon-decoration-border-inner:after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-image: url("../images/decoration-border.png");
+    will-change: transform;
+    pointer-events: none;
+}
+
+html .icon-decoration-border:before, html .icon-decoration-border:after {
+    left: 0;
+}
+
+html .icon-decoration-border-inner:before, html .icon-decoration-border-inner:after {
+    right: 0;
+}
+
+html .icon-decoration-border:before, html .icon-decoration-border-inner:before {
+    top: 0;
+}
+
+html .icon-decoration-border:after, html .icon-decoration-border-inner:after {
+    bottom: 0;
+}
+
+html .icon-decoration-border:after {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+html .icon-decoration-border-inner:before {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+html .icon-decoration-border-inner:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+html .icon-decoration-border + * {
+    margin-top: 19px;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* makes the font 33% larger relative to the icon container */
+
+/* Deprecated as of 4.4.0 */
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+@font-face {
+    font-family: "Material Design Icons";
+    src: url("../fonts/materialdesignicons-webfont.eot?v=1.4.57");
+    src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=1.4.57") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=1.4.57") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=1.4.57") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=1.4.57") format("truetype"), url("../fonts/materialdesignicons-webfont.svg?v=1.4.57#materialdesigniconsregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*# sourceMappingURL=materialdesignicons.css.map */
+/**
+ * Title:  Bigmug Line Flaticon Pack
+ * Author: Catalin Fertu
+ * Source: https://www.flaticon.com/packs/bigmug-line
+ * License:  CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+ */
+@font-face {
+    font-family: "fl-bigmug-line";
+    src: url("../fonts/fl-bigmug-line.eot");
+    src: url("../fonts/fl-bigmug-line.eot#iefix") format("embedded-opentype"), url("../fonts/fl-bigmug-line.woff") format("woff"), url("../fonts/fl-bigmug-line.ttf") format("truetype"), url("../fonts/fl-bigmug-line.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*=" fl-bigmug-line-"]:before, [class*=" fl-bigmug-line-"]:after {
+    font-family: 'fl-bigmug-line';
+    font-size: inherit;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fl-bigmug-line-checkmark16:before {
+    content: "\e018";
+}
+
+.fl-bigmug-line-portfolio23:before {
+    content: "\e08a";
+}
+
+.fl-bigmug-line-sand14:before {
+    content: "\e09a";
+}
+
+.fl-bigmug-line-three142:before {
+    content: "\e0b8";
+}
+
+/**
+ * Title: Flat icons set 2 Flaticon Pack
+ * Author: Silviu Runceanu
+ * Source: https://www.flaticon.com/packs/flat-icons-set-2
+ * License:  CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+ */
+@font-face {
+    font-family: "fl-flat-icons-set-2";
+    src: url("../fonts/fl-flat-icons-set-2.eot");
+    src: url("../fonts/fl-flat-icons-set-2.eot#iefix") format("embedded-opentype"), url("../fonts/fl-flat-icons-set-2.woff") format("woff"), url("../fonts/fl-flat-icons-set-2.ttf") format("truetype"), url("../fonts/fl-flat-icons-set-2.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+ * Title: Sympletts Flaticon Pack
+ * Author: Bogdan Rosu
+ * Source: https://www.flaticon.com/packs/sympletts
+ * License:  CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+ */
+@font-face {
+    font-family: "fl-sympletts";
+    src: url("../fonts/fl-sympletts.eot");
+    src: url("../fonts/fl-sympletts.eot#iefix") format("embedded-opentype"), url("../fonts/fl-sympletts.woff") format("woff"), url("../fonts/fl-sympletts.ttf") format("truetype"), url("../fonts/fl-sympletts.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+ * Title: Budicons free Flaticon Pack
+ * Author: Budi Tanrim
+ * Source: https://www.flaticon.com/packs/budicons-free
+ * License:  CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+ */
+@font-face {
+    font-family: "fl-budicons-free";
+    src: url("../fonts/fl-budicons-free.eot");
+    src: url("../fonts/fl-budicons-free.eot#iefix") format("embedded-opentype"), url("../fonts/fl-budicons-free.woff") format("woff"), url("../fonts/fl-budicons-free.ttf") format("truetype"), url("../fonts/fl-budicons-free.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+ * Title: Arrows Flaticon Pack
+ * Author: Icons8
+ * Source: https://www.flaticon.com/packs/arrows
+ * License:  CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+ */
+@font-face {
+    font-family: "arrows";
+    src: url("../fonts/arrows.eot");
+    src: url("../fonts/arrows.eot#iefix") format("embedded-opentype"), url("../fonts/arrows.woff") format("woff"), url("../fonts/arrows.ttf") format("truetype"), url("../fonts/arrows.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.section-top-60 {
+    padding-top: 60px;
+}
+
+.section-bottom-55 {
+    padding-bottom: 55px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    color: #666;
+    background-color: #fff;
+    font-weight: 300;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/*
+* @section      Page Header
+* @description  This section holds specific style redeclarations for some
+*               of common elements in page header
+*/
+
+/*
+* @section      Page Footer
+* @description  This section holds specific style redeclarations for some
+*               of common elements in page footer
+*/
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    transition: .33s all ease-out;
+}
+
+a, a:active, a:focus {
+    color: #666;
+}
+
+a:hover, a:focus {
+    color: #229dd1;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0;
+}
+
+* + h4 {
+    margin-top: 25px;
+}
+
+* + p {
+    margin-top: 18px;
+}
+
+/*
+*
+* Quotes
+* --------------------------------------------------
+*/
+/**
+* Quote components
+*/
+
+/*
+* Default styles
+*/
+
+/**
+* Quote
+*/
+
+.product {
+    padding: 24px 37px;
+    text-align: center;
+    transition: .22s;
+}
+
+.product h4 {
+    color: #000;
+}
+
+.product:hover {
+    -webkit-box-shadow: 0 0 5px 0 rgba(1, 3, 4, 0.13);
+    box-shadow: 0 0 5px 0 rgba(1, 3, 4, 0.13);
+}
+
+@media (min-width: 768px) {
+    .product-inset-1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+html .range-30 {
+    position: relative;
+    transform: translateY(-30px);
+    margin-bottom: -30px;
+    pointer-events: none;
+}
+
+html .range-30 > *:before {
+    content: '';
+    display: table;
+    width: 0;
+}
+
+html .range-30 > * {
+    margin-top: 30px;
+    pointer-events: auto;
+}
+
+@media (min-width: 992px) {
+    html .range-md-60 {
+        transform: translateY(-60px);
+        margin-bottom: -60px;
+    }
+
+    html .range-md-60 > * {
+        margin-top: 60px;
+    }
+}
+
+/*
+* Page Loader
+*/
+
+/*
+* Gallery items
+*/
+
+/* Gallery ablum item */
+
+/*
+ * Custom Plugins
+ */
+/**
+* @subsection   Animate.css
+*
+* @description  A bunch of cool, fun, and cross-browser animations
+*               for you to use.
+*
+* @author       Daniel Eden
+* @link         https://daneden.me/animate
+* @license      MIT license - https://opensource.org/licenses/MIT
+*/
+
+/**
+* Bounce Keyframes Animation
+*/
+
+/**
+* Flas Keyframes Animation
+*/
+
+/**
+* Pulse Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* RubberBand Keyframes Animation
+*/
+
+/**
+* Shake Keyframes Animation
+*/
+
+/**
+* Swing Keyframes Animation
+*/
+
+/**
+* Tada Keyframes Animation
+*/
+
+/**
+* Wobble Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* BounceIn Keyframes Animation
+*/
+
+/**
+* BounceInDown Keyframes Animation
+*/
+
+/**
+* BounceInLeft Keyframes Animation
+*/
+
+/**
+* BounceInRight Keyframes Animation
+*/
+
+/**
+* BounceInUp Keyframes Animation
+*/
+
+/**
+* BounceOut Keyframes Animation
+*/
+
+/**
+* BounceOutDown Keyframes Animation
+*/
+
+/**
+* BounceOutLeft Keyframes Animation
+*/
+
+/**
+* BounceOutRight Keyframes Animation
+*/
+
+/**
+* BounceOutUp Keyframes Animation
+*/
+
+/**
+* FadeIn Keyframes Animation
+*/
+
+/**
+* FadeInDown Keyframes Animation
+*/
+
+/**
+* FadeInDownBig Keyframes Animation
+*/
+
+/**
+* FadeInLeft Keyframes Animation
+*/
+
+/**
+* FadeInLeftBig Keyframes Animation
+*/
+
+/**
+* FadeInRight Keyframes Animation
+*/
+
+/**
+* FadeInRightBig Keyframes Animation
+*/
+
+/**
+* FadeInUp Keyframes Animation
+*/
+
+/**
+* FadeInUpBig Keyframes Animation
+*/
+
+/**
+* FadeOut Keyframes Animation
+*/
+
+/**
+* FadeOutDown Keyframes Animation
+*/
+
+/**
+* FadeOutDownBig Keyframes Animation
+*/
+
+/**
+* FadeOutLeft Keyframes Animation
+*/
+
+/**
+* FadeOutLeftBig Keyframes Animation
+*/
+
+/**
+* FadeOutRight Keyframes Animation
+*/
+
+/**
+* FadeOutRightBig Keyframes Animation
+*/
+
+/**
+* FadeOutUp Keyframes Animation
+*/
+
+/**
+* FadeOutUpBig Keyframes Animation
+*/
+
+/**
+* Flip Keyframes Animation
+*/
+
+/**
+* FlipInX Keyframes Animation
+*/
+
+/**
+* FlipInY Keyframes Animation
+*/
+
+/**
+* FlipOutX Keyframes Animation
+*/
+
+/**
+* FlipOutY Keyframes Animation
+*/
+
+/**
+* LightSpeedIn Keyframes Animation
+*/
+
+/**
+* LightSpeedOut Keyframes Animation
+*/
+
+/**
+* RotateIn Keyframes Animation
+*/
+
+/**
+* RotateInDownLeft Keyframes Animation
+*/
+
+/**
+* RotateInDownRight Keyframes Animation
+*/
+
+/**
+* RotateInUpLeft Keyframes Animation
+*/
+
+/**
+* RotateInUpRight Keyframes Animation
+*/
+
+/**
+* RotateOut Keyframes Animation
+*/
+
+/**
+* RotateOutDownLeft Keyframes Animation
+*/
+
+/**
+* RotateOutDownRight Keyframes Animation
+*/
+
+/**
+* RotateOutUpLeft Keyframes Animation
+*/
+
+/**
+* RotateOutUpRight Keyframes Animation
+*/
+
+/**
+* Hinge Keyframes Animation
+*/
+
+/**
+* RollIn Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* RollOut Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* ZoomIn Keyframes Animation
+*/
+
+/**
+* ZoomInDown Keyframes Animation
+*/
+
+/**
+* ZoomInLeft Keyframes Animation
+*/
+
+/**
+* ZoomInRight Keyframes Animation
+*/
+
+/**
+* ZoomInUp Keyframes Animation
+*/
+
+/**
+* ZoomOut Keyframes Animation
+*/
+
+/**
+* ZoomOutDown Keyframes Animation
+*/
+
+/**
+* ZoomOutLeft Keyframes Animation
+*/
+
+/**
+* ZoomOutRight Keyframes Animation
+*/
+
+/**
+* ZoomOutUp Keyframes Animation
+*/
+
+/**
+* SlideInDown Keyframes Animation
+*/
+
+/**
+* SlideInLeft Keyframes Animation
+*/
+
+/**
+* SlideInRight Keyframes Animation
+*/
+
+/**
+* SlideInUp Keyframes Animation
+*/
+
+/**
+* SlideOutDown Keyframes Animation
+*/
+
+/**
+* SlideOutLeft Keyframes Animation
+*/
+
+/**
+* SlideOutRight Keyframes Animation
+*/
+
+/**
+* SlideOutUp Keyframes Animation
+*/
+
+/*
+* @subsection   Isotope
+*/
+
+/* 
+ *  Owl Carousel - Animate Plugin
+ */
+
+/* 
+ * 	Owl Carousel - Auto Height Plugin
+ */
+
+/* 
+ *  Core Owl Carousel CSS File
+ */
+
+/* No Js */
+
+/* 
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+
+/* 
+ * 	Owl Carousel - Video Plugin
+ */
+
+/*
+ * Owl Navigation
+ */
+
+/*
+ * Owl Pagination
+ */
+
+/*
+* @subsection   RD Navbar
+*
+* @description  Describes style declarations for RD Navbar extension
+*
+* @author       Evgeniy Gusarov
+* @link         https://ua.linkedin.com/pub/evgeniy-gusarov/8a/a40/54a
+*/
+
+/*
+* @subsection General Styles
+*/
+
+/*
+* Navbar components
+*/
+
+/*
+* @subsection   Hybrid  Styles
+*/
+
+/*
+* Static Layout
+*/
+
+/*
+* Fullwidth Layout
+*/
+
+/*
+* Fixed Layout
+*/
+
+/*
+* Sidebar Layout
+*/
+
+/*
+* @subsection   Page boxed layout style redeclaration
+*
+* @description  Redefines navbar style inside boxed layout
+*
+* @see          ../modules/_page-layouts.scss
+*/
+
+/*
+*
+* Material Parallax
+* --------------------------------------------------
+*/
+
+/*
+* @subsection Google Map
+* @description Describes style declarations for RD Google Map extension
+* @version     1.0.0
+*/
+
+/**
+ * @subsection   Swiper 3.1.7
+ * @description  Most modern mobile touch slider and framework with
+ *               hardware accelerated transitions
+ * @author       Vladimir Kharlampidi
+ * @see          https://www.idangero.us/swiper/
+ * @licesne      MIT License
+ */
+
+/* a11y */
+
+/* IE10 Windows Phone 8 Fixes */
+
+/* Arrows */
+
+/* Pagination Styles */
+
+/* 3D Container */
+
+/* Coverflow */
+
+/* Fade */
+
+/* Cube */
+
+/* Scrollbar */
+
+/* Preloader */
+
+/*
+* @subsection   ToTop
+* @license      MIT license - https://opensource.org/licenses/MIT
+* @version      1.0.0
+*/
+
+/*
+* @subsection   Progress Bar
+*/
+
+/*
+* Lightgallery styles
+*/
+
+@font-face {
+    font-family: lg;
+    src: url(../fonts/lg.eot?n1z373);
+    src: url(../fonts/lg.eot?#iefixn1z373) format("embedded-opentype"), url(../fonts/lg.woff?n1z373) format("woff"), url(../fonts/lg.ttf?n1z373) format("truetype"), url(../fonts/lg.svg?n1z373#lg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* primary */
+
+/* primary */
+
+/*
+* Lightgallery transitions
+*/

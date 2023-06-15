@@ -1,0 +1,33 @@
+{
+    "BLOCK_heading":{
+        "type":"block",
+        "GPT":"Информация",
+        "heading": {
+            "type": "text",
+            "GPT": "Заголовок",
+            "max-length": 16
+        },
+        "name":{
+            "type":"text",
+            "GPT":"Текст",
+            "max-length": 16
+        },
+        "coin":{
+            "type":"text",
+            "GTP":"Цена",
+            "max-length": 16
+        }
+    },
+    "BLOCK_tovar":{
+        "type":"block",
+        "GPT":"Информация",
+        "includes":{
+            "image":{
+                "type":"image",
+                "alt":"Image",
+                "title":"Image",
+                "GPT":"Картинка"
+            }
+        }
+    }
+}

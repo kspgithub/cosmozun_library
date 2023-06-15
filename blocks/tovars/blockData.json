@@ -1,0 +1,21 @@
+{
+    "BLOCK_afte": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "name:": {
+                "type": "text",
+                "GPT": "Заголовок"
+            },
+            "photo": {
+                "type": "image",
+                "GPT": "Картинка"
+            },
+            "Text": {
+                "type": "text",
+                "GPT": "Текст под картинкой",
+                "max-length":25 
+            }
+        }
+    }
+}

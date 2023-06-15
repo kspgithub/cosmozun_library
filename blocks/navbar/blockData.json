@@ -1,0 +1,25 @@
+{
+    "BLOCK_elements": {
+        "type": "block",
+        "GPT": "Элементы навигации",
+        "includes": {
+            "name": {
+                "type": "link",
+                "GPT": "Название элемента",
+                "max-length": 16
+            }
+        }
+    },
+    "BLOCK_icons": {
+        "type": "block",
+        "GPT": "Иконки соц. сетей",
+        "includes": {
+            "icon": {
+                "type": "link",
+                "alt": "",
+                "title": "",
+                "GPT": "Иконка"
+            }
+        }
+    }
+}

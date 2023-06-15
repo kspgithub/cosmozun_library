@@ -1,0 +1,50 @@
+{
+    "BLOCK_photo1": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "image:": {
+                "type": "image",
+                "alt": "Image",
+                "title": "Image",
+                "GPT": "Картинка"
+            }
+        }
+    },
+    "BLOCK_inform": {
+        "type": "block",
+        "GPT": "Главная иконка",
+        "includes": {
+            "icon": {
+                "type": "icon",
+                "GPT": "Иконка"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Параграф",
+                "max-length": 24
+            },
+            "img":{
+                "type":"image",
+                "GPT":"Картинка"
+            }
+        }
+    },
+    "BLOCK_photo2": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "image:": {
+                "type": "image",
+                "alt": "Image",
+                "title": "Image",
+                "GPT": "Картинка"
+            }
+        }
+    }
+}
