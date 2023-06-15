@@ -1,0 +1,38 @@
+{
+    "heading":{
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 100
+    },
+
+    "BLOCK_widget":{
+        "type":"block",
+        "GPT": "Блок с виджетом",
+        "includes":{
+            
+            "icon":{
+                "type": "icon",
+                "alt": "",
+                "title": "",
+                "GPT": "Иконка виджета"
+            },
+
+            "title":{
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Описание виджета"
+            },
+            
+            "Author": {
+                "type": "link",
+                "max-length": 100,
+                "GPT": "Имя автора"
+            },
+
+            "Date": {
+                "type": "link",
+                "GPT": "Дата виджета"
+            }
+        }
+    }
+}

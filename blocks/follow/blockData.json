@@ -1,0 +1,11 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "icon": {
+        "type": "icon",
+        "GPT": "Иконка"
+    }
+}

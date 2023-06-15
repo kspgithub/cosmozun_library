@@ -1,0 +1,33 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "subheader": {
+        "type": "text",
+        "GPT": "Подзаголовок",
+        "max-length": 16
+    },
+    "price": {
+        "type": "text",
+        "GPT": "Подзаголовок",
+        "max-length": 16
+    },
+    "button": {
+        "type": "button",
+        "GPT": "Кнопка купить",
+        "max-length": 16
+    },
+    "BLOCK_table": {
+        "type": "block",
+        "GPT": "Таблица",
+        "includes": {
+            "text": {
+                "type": "text",
+                "GPT": "Содержание таблицы",
+                "max-length": 16
+            }
+        }
+    }
+}

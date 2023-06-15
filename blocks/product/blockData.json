@@ -1,0 +1,37 @@
+{
+    "image": {
+        "type": "image",
+        "GPT": "Фото",
+        "alt": "",
+        "title": ""
+    },
+    "status": {
+        "type": "text",
+        "GPT": "Статус",
+        "max-length": 16
+    },
+    "title": {
+        "type": "text",
+        "GPT": "Название",
+        "max-length": 16
+    },
+    "description": {
+        "type": "text",
+        "GPT": "Описание",
+        "max-length": 64
+    },
+    "features": {
+        "type": "text",
+        "GPT": "Функционал",
+        "max-length": 64
+    },
+    "price": {
+        "type": "text",
+        "GPT": "Цена",
+        "max-length": 16
+    },
+    "buy": {
+        "type": "button",
+        "GPT": "Кнопка покупки"
+    }
+}

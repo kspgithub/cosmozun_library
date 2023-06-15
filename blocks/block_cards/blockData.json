@@ -1,0 +1,32 @@
+{
+    "heading":{
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 100
+    },
+
+    "BLOCK_card":{
+        "type":"block",
+        "GPT": "Карточка",
+        "includes":{
+            "icon":{
+                "type": "image",
+                "alt": "",
+                "title": "",
+                "GPT": "Иконка карточки"
+            },
+
+            "title":{
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Заголовок карточки"
+            },
+
+            "descripton":{
+                "type": "text",
+                "GPT": "Описание карточки",
+                "max-length": 200
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "heading":{
+        "type": "text",
+        "GPT": "Заголовок витрины",
+        "max-length": 100
+    },
+    
+    "BLOCK_showcase":{
+        "type":"block",
+        "GPT": "Блок с витриной",
+        "includes":{
+
+            "BLOCK_case": {
+                "type": "block",
+                "GPT": "Блок с товаром",
+                "includes": {
+                    "image": {
+                        "type": "image",
+                        "GPT": "Картинка с товаром"
+                    },
+
+                    "title": {
+                        "type": "text",
+                        "GPT": "Заголовок товара",
+                        "max-length": 100
+                    },
+
+                    "description": {
+                        "type": "text",
+                        "GPT": "Заголовок с ценой",
+                        "max-length": 100
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "message": {
+        "type": "text",
+        "GPT": "Сообщение",
+        "max-length": 32
+    },
+    "button": {
+        "type": "button",
+        "GPT": "Кнопка"
+    },
+    "buttonClose": {
+        "type": "button",
+        "GPT": "Крестик"
+    }
+}

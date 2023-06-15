@@ -1,0 +1,27 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "BLOCK_product": {
+        "type": "block",
+        "GPT": "Товар",
+        "includes": {
+            "title": {
+                "type": "text",
+                "GPT": "Название товара",
+                "max-length": 16
+            },
+            "price": {
+                "type": "text",
+                "GPT": "Цена товара",
+                "max-length": 16
+            },
+            "rate": {
+                "type": "icon",
+                "GPT": "Рейтинг"
+            }
+        }
+    }
+}

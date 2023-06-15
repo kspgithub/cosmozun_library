@@ -1,0 +1,49 @@
+{
+    "BLOCK_footer": {
+        "type": "block",
+        "GPT": "Подвал сайта",
+        "includes": {
+
+            "BLOCK_column": {
+                "type": "block",
+                "GPT": "Колонка подвала сайта",
+                "includes": {
+                    "title": {
+                        "type": "text",
+                        "GPT": "Заголовок подвала сайта",
+                        "max-length": 100
+                    },
+
+                    "description": {
+                        "type": "text",
+                        "GPT": "Подзаголовок подвала сайта",
+                        "max-length": 100
+                    },
+
+                    "input": {
+                        "type": "input",
+                        "GPT": "Поле ввода эл.почты"
+                    },
+
+                    "button": {
+                        "type": "button",
+                        "GPT": "Кнопка подписаться сейчас"
+                    }
+                }
+            },
+
+            "BLOCK_copyright": {
+                "type": "block",
+                "GPT": "Блок с авторскими правами",
+                "includes": {
+
+                    "description": {
+                        "type": "text",
+                        "GPT": "Подзаголовок с авторскими правами"
+                    }
+
+                }
+            }
+        }
+    }
+}

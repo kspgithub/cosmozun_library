@@ -1,0 +1,7 @@
+{
+    "css": {
+        "bootstrap": "css/bootstrap.min.css",
+        "bootstrap-icons": "css/bootstrap-icons.css",
+        "font-awesome": "css/font-awesome.min.css"
+    }
+}

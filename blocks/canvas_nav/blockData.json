@@ -1,0 +1,15 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "menuButton": {
+        "type": "button",
+        "GPT": "Кнопка меню"
+    },
+    "canvasElement": {
+        "type": "text",
+        "GPT": "Элемент меню"
+    }
+}
