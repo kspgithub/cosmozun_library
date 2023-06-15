@@ -1,0 +1,41 @@
+{
+    "BLOCK_hidden": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "name:": {
+                "type": "text",
+                "GPT": "Заголовок"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            }
+        }
+    },
+    "BLOCK_icon":{
+        "type":"block",
+        "GPT": "Иконки",
+        "includes":{
+            "icon":{
+                "type": "image",
+                "alt": "Icon",
+                "title": "Icon",
+                "max-length": 100,
+                "GPT": "Иконка"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Параграф",
+                "max-length": 256
+    
+            }
+        }
+    }
+}
