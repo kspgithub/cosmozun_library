@@ -1,0 +1,29 @@
+{
+    "Block_slider": {
+        "type": "block",
+        "GPT": "Блок слайдер",
+        "includes": {
+            "icon": {
+                "type": "image",
+                "GPT": "Иконка элемента слайдера"
+            },
+
+            "title": {
+                "type": "text",
+                "GPT": "Заголовок элемента слайдера",
+                "max-length": 100
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Подзаголовок элемента слайдера",
+                "max-length": 100
+            },
+
+            "button": {
+                "type": "button",
+                "GPT": "Кнопка увидеть больше"
+            }
+        }
+    }
+}
