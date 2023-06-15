@@ -1,0 +1,31 @@
+{
+   "BLOCK_column": {
+       "type": "block",
+       "GPT": "Блок колонка",
+       "includes": {
+           
+           "title": {
+               "type": "text",
+               "GPT": "Блок с заголовком",
+               "max-length": 100
+           },
+
+           "description": {
+               "type": "text",
+               "GPT": "Подзаголовок с ценой",
+               "max-length": 100
+           },
+
+           "description": {
+               "type": "text",
+               "GPT": "Подзаголовок с описанием",
+               "max-length": 100
+           },
+
+           "button": {
+                "type": "button",
+                "GPT": "Кнопка записи на приём"
+           }
+       }
+   } 
+}
