@@ -1,0 +1,24 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "paragraph": {
+        "type": "text",
+        "GPT": "Параграф",
+        "max-length": 64
+    },
+    "map": {
+        "type": "iframe",
+        "GPT": "Карта"
+    },
+    "input": {
+        "type": "input",
+        "GPT": "Поле ввода"
+    },
+    "button": {
+        "type": "button",
+        "GPT": "Кнопка оправки"
+    }
+}

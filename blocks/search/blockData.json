@@ -1,0 +1,26 @@
+{
+    "heading": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "text": {
+        "type": "text",
+        "GPT": "Текст",
+        "max-length": 32
+    },
+    "input": {
+        "type": "input",
+        "GTP": "Строка поиска",
+        "max-length": 128
+    },
+    "button": {
+        "type": "button",
+        "GPT": "Кнопка"
+    },
+    "popularSearches": {
+        "type": "text",
+        "GPT": "Популярные запросы",
+        "max-length": 32
+    }
+}

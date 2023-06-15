@@ -1,0 +1,33 @@
+{
+    "heading":{
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 100
+    },
+    "descripton":{
+        "type": "text",
+        "GPT": "Описание",
+        "max-length": 200
+    },
+    "BLOCK_card":{
+        "type":"block",
+        "GPT": "Информация",
+        "includes":{
+            "name":{
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Текст"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Параграф",
+                "max-length": 45
+            }
+        }
+    }
+}

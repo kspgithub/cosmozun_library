@@ -1,0 +1,35 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "name": {
+        "type": "input",
+        "GPT": "Ввод имени",
+        "max-length": 32
+    },
+    "email": {
+        "type": "input",
+        "GPT": "Ввод почты",
+        "max-length": 32
+    },
+    "uploadFile": {
+        "type": "input",
+        "GPT": "Загрузка файла"
+    },
+    "subject": {
+        "type": "input",
+        "GPT": "Выбор темы",
+        "max-length": 32
+    },
+    "message": {
+        "type": "input",
+        "GPT": "Ввод сообщения",
+        "max-length": 256
+    },
+    "button": {
+        "type": "button",
+        "GPT": "Кнопка отправки"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "BLOCK_card":{
+    "type": "block",
+    "GPT": "Информация",
+    "includes": {
+    "name:": {
+        "type": "text",
+        "GPT": "Оглавление"
+            },
+            "heading":{
+                "type":"text",
+                "GPT": "Загловок",
+                "max-length": 16
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Текст",
+                "max-length": 256
+            },
+            "button":{
+                "type":"button-text",
+                "GPT":"Текст на кнопке"
+            }
+        }   
+    }
+}

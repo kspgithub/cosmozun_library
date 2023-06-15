@@ -1,0 +1,38 @@
+{
+    "BLOCK_title":{
+        "type":"block",
+        "GPT":"Информация",
+        "heading": {
+            "type": "text",
+            "GPT": "Заголовок",
+            "max-length": 16
+        },
+        "pharagraph":{
+            "type":"text",
+            "GPT":"Текст под заголовокм",
+            "max-length": 64
+        }
+    },
+    "BLOCK_icon":{
+        "type":"block",
+        "GPT":"Информация",
+        "includes":{
+            "icon":{
+                "type":"image",
+                "alt":"Icon",
+                "title":"Icon",
+                "GPT":"Иконка"
+            }
+        },
+        "heading":{
+            "type":"text",
+            "GPT":" Заголовок",
+            "max-length": 16
+        },
+        "pharagraph":{
+            "type":"text",
+            "GPT":"Текст",
+            "max-length": 24
+        }
+    }
+}
