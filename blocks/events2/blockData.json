@@ -1,0 +1,18 @@
+{
+    "BLOCK_icon":{
+    "type":"block",
+    "GPT":"Информация",
+    "includes":{
+        "image":{
+            "type":"image",
+            "alt":"Image",
+            "title":"Image",
+            "GPT":"Картинка"
+        },
+        "pharagraph":{
+            "type":"text",
+            "GPT":"Текст",
+            "max-length": 64
+        }
+    }
+}}

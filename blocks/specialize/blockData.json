@@ -1,0 +1,16 @@
+{
+    "header": {
+    "type": "text",
+    "GPT": "Заголовок",
+    "max-length": 64
+    },
+    "paragraph": {
+    "type": "text",
+    "GPT": "Параграф",
+    "max-length": 128
+    },
+    "button":{
+        "type":"button",
+        "GPT":"Кнопка ознакомления"
+    }
+}

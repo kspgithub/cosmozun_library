@@ -1,0 +1,33 @@
+{
+    "BLOCK_video": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "image:": {
+                "type": "Image",
+                "alt": "Image",
+                "title": "Image",
+                "GPT": "Картинка"
+            },
+        "BLOCK_hidden": {
+            "type": "block",
+            "GPT": "Информация",
+            "includes": {
+                "name:": {
+                    "type": "text",
+                    "GPT": "Основной заголовок"
+                    },
+                    "header": {
+                        "type": "text",
+                        "GPT": "Заголовок",
+                        "max-length": 16
+                    },
+                    "paragraph":{
+                        "type":"text",
+                        "GTP":"Текст"
+                    }
+                }
+            }
+        }
+    }
+}

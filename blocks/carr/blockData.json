@@ -1,0 +1,22 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "BLOCK_text":{
+        "type": "block",
+        "GPT": "Инфомация",
+        "includes": {
+            "paragraph": {
+                "type": "text",
+                "GPT": "Текст",
+                "max-length": 256
+            },
+            "A_car":{
+                "typy":"image",
+                "GTP":"Картинка"
+            }
+        }
+    }
+}
