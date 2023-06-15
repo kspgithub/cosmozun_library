@@ -1,0 +1,22 @@
+{
+    "BLOCK_title": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "icon:": {
+                "type": "text",
+                "GPT": "Заголовок"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Параграф",
+                "max-length": 256
+            }
+        }
+    }
+}
