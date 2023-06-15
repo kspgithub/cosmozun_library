@@ -1,0 +1,273 @@
+<link rel="stylesheet" href="style.css">
+
+<div class="row mt-5 justify-content-center">
+    <div class="col-lg-6">
+        <ul class="nav nav-tabs nav-justified flex-column border-bottom-0 flex-md-row bg-color mt-4" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link py-3 active container-modules-loaded" id="home-moving-tab" data-bs-toggle="tab"
+                    href="#home-moving" role="tab" aria-controls="home-moving" aria-selected="true">Home Moving</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link py-3 container-modules-loaded" id="office-moving-tab" data-bs-toggle="tab"
+                    href="#office-moving" role="tab" aria-controls="office-moving" aria-selected="false"
+                    tabindex="-1">Office Moving</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link py-3 container-modules-loaded" id="others-moving-tab" data-bs-toggle="tab"
+                    href="#others-moving" role="tab" aria-controls="others-moving" aria-selected="false"
+                    tabindex="-1">Others Service</a>
+            </li>
+        </ul>
+        <div class="tab-content rounded-bottom shadow bg-white py-4 px-5">
+            <div class="tab-pane fade active show" id="home-moving" role="tabpanel" aria-labelledby="home-moving-tab">
+                <p class="mb-4">Shift to your new Home, So we're here. Please send us your Deatils &amp; our
+                    team will contact your email asap.</p>
+                <div class="form-widget">
+                    <div class="form-result"></div>
+                    <form class="row home-moving-form position-relative mb-0" action="include/form.php" method="post"
+                        enctype="multipart/form-data" novalidate="novalidate">
+                        <div class="form-process">
+                            <div class="css3-spinner">
+                                <div class="css3-spinner-scaler"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-truck"></i></span>
+                                <input type="text" name="home-moving-form-location-from"
+                                    id="home-moving-form-location-from" class="form-control required" value=""
+                                    placeholder="Location From" wfd-id="id1">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-map"></i></span>
+                                <input type="text" name="home-moving-form-location-to" id="home-moving-form-location-to"
+                                    class="form-control required" value="" placeholder="Location To" wfd-id="id2">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-person"></i></span>
+                                <input type="text" name="home-moving-form-name" id="home-moving-form-name"
+                                    class="form-control required" value="" placeholder="Your Full Name" wfd-id="id3">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-envelope"></i></span>
+                                <input type="email" name="home-moving-form-email" id="home-moving-form-email"
+                                    class="form-control required" value="" placeholder="Your Email" wfd-id="id4">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i
+                                        class="bi-telephone-outbound"></i></span>
+                                <input type="text" name="home-moving-form-phone" id="home-moving-form-phone"
+                                    class="form-control required" value="" placeholder="Your Phone Number" wfd-id="id5">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-calendar-week"></i></span>
+                                <input type="text" class="form-control home-date required" name="home-moving-form-date"
+                                    id="home-moving-form-date" value="" placeholder="Your Date" wfd-id="id6">
+                            </div>
+                        </div>
+                        <div class="col-12 d-none">
+                            <input type="text" id="home-moving-form-botcheck" name="home-moving-form-botcheck" value=""
+                                wfd-id="id7">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" name="home-moving-form-submit"
+                                class="btn bg-color text-white fw-medium w-100 py-2 mt-2">Contact Us</button>
+                        </div>
+                        <input type="hidden" name="prefix" value="home-moving-form-" wfd-id="id8">
+                        <input type="hidden" name="subject" value="Home Moving Request" wfd-id="id9">
+                        <input type="hidden" name="html_title" value="Home Moving" wfd-id="id10">
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="office-moving" role="tabpanel" aria-labelledby="office-moving-tab">
+                <p class="mb-4">Share your Office Shifting details by Filling out an Easy Form. Get Free Quotes
+                    from Verified Packers &amp; Movers Instantly.</p>
+                <div class="form-widget">
+                    <div class="form-result"></div>
+                    <form class="row office-moving-form position-relative mb-0" action="include/form.php" method="post"
+                        enctype="multipart/form-data" novalidate="novalidate">
+                        <div class="form-process">
+                            <div class="css3-spinner">
+                                <div class="css3-spinner-scaler"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-truck"></i></span>
+                                <input type="text" name="office-moving-form-location-from"
+                                    id="office-moving-form-location-from" class="form-control required" value=""
+                                    placeholder="Location From" wfd-id="id11">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-map"></i></span>
+                                <input type="text" name="office-moving-form-location-to"
+                                    id="office-moving-form-location-to" class="form-control required" value=""
+                                    placeholder="Location To" wfd-id="id12">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-person"></i></span>
+                                <input type="text" name="office-moving-form-name" id="office-moving-form-name"
+                                    class="form-control required" value="" placeholder="Your Full Name" wfd-id="id13">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-envelope"></i></span>
+                                <input type="email" name="office-moving-form-email" id="office-moving-form-email"
+                                    class="form-control required" value="" placeholder="Your Email" wfd-id="id14">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i
+                                        class="bi-telephone-outbound"></i></span>
+                                <input type="text" name="office-moving-form-phone" id="office-moving-form-phone"
+                                    class="form-control required" value="" placeholder="Your Phone Number"
+                                    wfd-id="id15">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-calendar-week"></i></span>
+                                <input type="text" class="form-control home-date required"
+                                    name="office-moving-form-date" id="office-moving-form-date" value=""
+                                    placeholder="Your Date" wfd-id="id16">
+                            </div>
+                        </div>
+                        <div class="col-12 d-none">
+                            <input type="text" id="office-moving-form-botcheck" name="office-moving-form-botcheck"
+                                value="" wfd-id="id17">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" name="office-moving-form-submit"
+                                class="btn bg-color text-white fw-medium w-100 py-2 mt-2">Contact Us</button>
+                        </div>
+                        <input type="hidden" name="prefix" value="office-moving-form-" wfd-id="id18">
+                        <input type="hidden" name="subject" value="Office Moving Request" wfd-id="id19">
+                        <input type="hidden" name="html_title" value="Office Moving" wfd-id="id20">
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="others-moving" role="tabpanel" aria-labelledby="others-moving-tab">
+                <div class="form-widget">
+                    <div class="form-result"></div>
+                    <form class="row others-moving-form position-relative mb-0" action="include/form.php" method="post"
+                        enctype="multipart/form-data" novalidate="novalidate">
+                        <div class="form-process">
+                            <div class="css3-spinner">
+                                <div class="css3-spinner-scaler"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><img src="demos/movers/images/baggage.png"
+                                        height="18" alt="baggage Icon"></span>
+                                <select class="required form-select" name="others-moving-form-service"
+                                    id="others-moving-form-service">
+                                    <option value="" disabled="" selected="">-- Select Your Service --</option>
+                                    <option value="International Moving">International Moving</option>
+                                    <option value="Pet Moving">Pet Moving</option>
+                                    <option value="Car Moving">Car Moving</option>
+                                    <option value="Hire Mover Truck">Hire Mover Truck</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-boxes"></i></span>
+                                <input type="text" name="others-moving-form-item" id="others-moving-form-item"
+                                    class="form-control required" value="" placeholder="Your Item" wfd-id="id21">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text text-muted bg-transparent"><i
+                                        class="bi-person-circle1"></i></span>
+                                <select class="required form-select" name="others-moving-form-movers"
+                                    id="others-moving-form-movers">
+                                    <option value="" disabled="" selected="">-- Select Movers --</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-truck"></i></span>
+                                <input type="text" name="others-moving-form-location-from"
+                                    id="others-moving-form-location-from" class="form-control required" value=""
+                                    placeholder="Location From" wfd-id="id22">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-map"></i></span>
+                                <input type="text" name="others-moving-form-location-to"
+                                    id="others-moving-form-location-to" class="form-control required" value=""
+                                    placeholder="Location To" wfd-id="id23">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-person"></i></span>
+                                <input type="text" name="others-moving-form-name" id="others-moving-form-name"
+                                    class="form-control required" value="" placeholder="Your Full Name" wfd-id="id24">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-envelope"></i></span>
+                                <input type="email" name="others-moving-form-email" id="others-moving-form-email"
+                                    class="form-control required" value="" placeholder="Your Email" wfd-id="id25">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i
+                                        class="bi-telephone-outbound"></i></span>
+                                <input type="text" name="others-moving-form-phone" id="others-moving-form-phone"
+                                    class="form-control required" value="" placeholder="Your Phone Number"
+                                    wfd-id="id26">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent"><i class="bi-calendar-week"></i></span>
+                                <input type="text" class="form-control home-date required"
+                                    name="others-moving-form-date" id="others-moving-form-date" value=""
+                                    placeholder="Your Date" wfd-id="id27">
+                            </div>
+                        </div>
+                        <div class="col-12 d-none">
+                            <input type="text" id="others-moving-form-botcheck" name="others-moving-form-botcheck"
+                                value="" wfd-id="id28">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" name="others-moving-form-submit"
+                                class="btn bg-color text-white fw-medium w-100 py-2 mt-2">Contact Us</button>
+                        </div>
+                        <input type="hidden" name="prefix" value="others-moving-form-" wfd-id="id29">
+                        <input type="hidden" name="subject" value="Others Service Request" wfd-id="id30">
+                        <input type="hidden" name="html_title" value="Others Service" wfd-id="id31">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

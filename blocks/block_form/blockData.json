@@ -1,0 +1,29 @@
+{
+    "BLOCK_form": {
+        "type": "block",
+        "GPT": "Блок с формой",
+        "includes": {
+            "title": {
+                "type": "text",
+                "GPT": "Заголовок формы",
+                "max-length": 100
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Описание формы",
+                "max-length": 100
+            },
+
+            "select_brand": {
+                "type": "select",
+                "GPT": "Выпадающий список с брендом машины"
+            },
+
+            "select_model": {
+                "type": "select",
+                "GPT": "Выпадающий список с моделью машины"
+            }
+        }
+    }
+}

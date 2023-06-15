@@ -1,0 +1,43 @@
+{
+    "BLOCK_column": {
+        "type": "block",
+        "GPT": "Блок с колонкой",
+        "includes": {
+
+            "date": {
+                "type": "text",
+                "GPT": "Заголовок с датой",
+                "max-length": 100
+            },
+
+            "title": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 100
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Описание заголовка",
+                "max-length": 100
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Заголовок с именем автора",
+                "max-length": 100
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Заголовок с ценой",
+                "max-length": 100
+            }
+        }
+    },
+
+    "Block_button": {
+        "type": "button",
+        "GPT": "Кнопка добавления в корзину"
+    }
+}

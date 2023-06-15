@@ -1,0 +1,41 @@
+{
+    "heading": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 100
+    },
+
+    "description": {
+        "type": "text",
+        "GPT": "Подзаголовок",
+        "max-length": 100
+    },
+
+    "BLOCK_column": {
+        "type": "block",
+        "GPT": "Блок с колонкой",
+        "includes": {
+            "image": {
+                "type": "image",
+                "GPT": "Картинка"
+            },
+
+            "title": {
+                "type": "text",
+                "GPT": "Заголовок колонки",
+                "max-length": 100
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Подзаголовок колонки",
+                "max-length": 100
+            },
+
+            "button": {
+                "type": "button",
+                "GPT": "Кнопка посмотреть больше"
+            }
+        }
+    }
+}

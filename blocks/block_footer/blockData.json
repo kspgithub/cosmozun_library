@@ -1,0 +1,20 @@
+{
+    "BLOCK_footer": {
+        "type": "block",
+        "GPT": "Блок с подвалом сайта",
+        "includes": {
+
+            "description": {
+                "type": "text",
+                "GPT": "Подзаголовок подвала сайта",
+                "max-length": 100
+            },
+
+            "link": {
+                "type": "link",
+                "GPT": "Ссылка на социальную сеть"
+            }
+
+        }
+    }
+}

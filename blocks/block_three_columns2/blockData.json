@@ -1,0 +1,25 @@
+{
+    "BLOCK_column": {
+        "type": "block",
+        "GPT": "Блок с колонкой",
+        "includes": {
+
+            "image": {
+                "type": "image",
+                "GPT": "Картинка колонки"
+            },
+
+            "title": {
+                "type": "text",
+                "GPT": "Заголовок колонки",
+                "max-length": 100
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Подзаголовок колонки",
+                "max-length": 100
+            }
+        }
+    }
+}
