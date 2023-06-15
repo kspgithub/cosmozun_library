@@ -4,5 +4,8 @@
         "bootstrap-icons": "css/bootstrap-icons.css",
         "font-awesome": "css/font-awesome.min.css",
         "swiper": "css/swiper.css"
+    },
+    "js": {
+        "jquery": "js/jquery.js"
     }
 }
