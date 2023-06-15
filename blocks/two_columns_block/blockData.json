@@ -1,0 +1,25 @@
+{
+    "heading":{
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 100
+    },
+
+    "BLOCK_column":{
+        "type":"block",
+        "GPT": "Блок с колонкой",
+        "includes":{
+            "title": {
+               "type": "text",
+               "GPT": "Заголовок колонки",
+               "max-length": 100  
+            },
+
+            "description": {
+                "type": "text",
+                "GPT": "Описание колонки",
+                "max-length": 100
+            }
+        }
+    }
+}
