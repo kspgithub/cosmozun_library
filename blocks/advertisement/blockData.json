@@ -1,0 +1,19 @@
+{
+    "sale": {
+        "type": "text",
+        "GPT": "Скидка",
+        "max-length": 8
+    },
+    "button": {
+        "type": "button",
+        "GPT": "Кнопка"
+    },
+    "tel": {
+        "type": "icon",
+        "GPT": "Номер телефона"
+    },
+    "call": {
+        "type": "button",
+        "GPT": "Кнопка вызова"
+    }
+}
