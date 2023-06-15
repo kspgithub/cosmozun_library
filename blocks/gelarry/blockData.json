@@ -1,0 +1,29 @@
+{
+    "BLOCK_title": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "icon:": {
+                "type": "text",
+                "GPT": "Заголовок"
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Текст",
+                "max-length": 256
+            },
+            "BLOCK_image":{
+                "type": "block",
+                "GPT": "Информация",
+                "includes": {
+                "image:": {
+                    "type": "image",
+                    "alt": "Image",
+                    "title": "Image",
+                    "GPT": "Картинка"
+                }
+
+            }}
+        }
+    }
+}
