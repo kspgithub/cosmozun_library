@@ -1,0 +1,12 @@
+{
+    "number": {
+        "type": "text",
+        "GPT": "Число",
+        "max-length": 3
+    },
+    "discription": {
+        "type": "text",
+        "GPT": "Описание",
+        "max-length": 32
+    }
+}

@@ -1,8 +1,8 @@
 {
-    "css":{
+    "css": {
         "swiper": "css/swiper.min.css"
     },
-    "js":{
+    "js": {
         "jquery": "js/jquery.js",
         "swiper": "js/swiper.js"
     }

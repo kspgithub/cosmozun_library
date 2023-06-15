@@ -1,0 +1,31 @@
+{
+    "BLOCK_plan": {
+        "type": "block",
+        "GPT": "Блок план",
+        "heading": {
+            "type": "text",
+            "GPT": "Заголовок",
+            "max-length": 16
+        },
+        "price": {
+            "type": "text",
+            "GPT": "Цена",
+            "max-length": 16
+        },
+        "BLOCK_list": {
+            "type": "block",
+            "GPT": "Блок список",
+            "includes": {
+                "listItem": {
+                    "type": "text",
+                    "GPT": "Элемент списка",
+                    "max-length": 16
+                }
+            }
+        },
+        "button": {
+            "type": "button",
+            "GPT": "Кнопка"
+        }
+    }
+}

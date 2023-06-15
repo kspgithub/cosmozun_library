@@ -1,0 +1,27 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "inputName": {
+        "type": "input",
+        "GPT": "Ввод имени"
+    },
+    "inputEmail": {
+        "type": "name",
+        "GPT": "Ввод почты"
+    },
+    "inputPassword": {
+        "type": "name",
+        "GPT": "Ввод пароля"
+    },
+    "question": {
+        "type": "link",
+        "GPT": "Уже есть аккаунт"
+    },
+    "submitButton": {
+        "type": "button",
+        "GPT": "Кнопка отправки"
+    }
+}

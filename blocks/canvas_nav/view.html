@@ -1,0 +1,62 @@
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#">Canvas</a>
+        <button class="navbar-toggler rounded-pill collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+            aria-label="Toggle navigation">Menu</button>
+        <div class="navbar-collapse collapse" id="navbarScroll" style="">
+            <div class="line my-2"></div>
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-house"></i>Home</div>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-person-circle"></i>About</div>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-pc-display"></i>Work</div>
+                    </a>
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="#">
+                                <div><i class="me-2 bi-droplet"></i>Project One</div>
+                            </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">
+                                <div><i class="me-2 bi-easel2"></i>Project Two</div>
+                            </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">
+                                <div><i class="me-2 bi-file-medical-fill"></i>Project Three</div>
+                            </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-microsoft-teams"></i>Team</div>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-database"></i>Services</div>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-currency-dollar"></i>Pricing</div>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-pencil-fill"></i>Blog</div>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-chat-quote-fill"></i>Testimonials</div>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                        <div><i class="me-2 bi-person-lines-fill"></i>Contact</div>
+                    </a></li>
+            </ul>
+            <div class="line mt-3 mb-2"></div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    jQuery('#navbarScroll').on('show.bs.collapse', function () {
+        jQuery('body').addClass('navbar-collapse-open');
+    });
+    jQuery('#navbarScroll').on('hide.bs.collapse', function () {
+        jQuery('body').removeClass('navbar-collapse-open');
+    });
+</script>

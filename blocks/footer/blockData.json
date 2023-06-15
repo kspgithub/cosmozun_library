@@ -1,0 +1,49 @@
+{
+    "BLOCK_elements": {
+        "type": "block",
+        "GPT": "Ссылки",
+        "includes": {
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "link": {
+                "type": "link",
+                "GPT": "Ссылка",
+                "max-length": 16
+            }
+        }
+    },
+    "BLOCK_contacts": {
+        "type": "block",
+        "GPT": "Контакты",
+        "includes": {
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "address": {
+                "type": "text",
+                "GPT": "Адрес",
+                "max-length": 124
+            },
+            "icon": {
+                "type": "icon",
+                "GPT": "Иконка"
+            }
+        }
+    },
+    "BLOCK_copyrights": {
+        "type": "block",
+        "GPT": "Права",
+        "includes": {
+            "copyrights": {
+                "type": "text",
+                "GPT": "Права",
+                "max-length": 128
+            }
+        }
+    }
+}

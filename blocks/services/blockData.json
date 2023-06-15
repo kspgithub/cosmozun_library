@@ -1,0 +1,32 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 32
+    },
+    "BLOCK_carc": {
+        "type": "block",
+        "GPT": "Карточка",
+        "includes": {
+            "icon": {
+                "type": "icon",
+                "GPT": "Иконка"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 32
+            },
+            "pargraph": {
+                "type": "text",
+                "GPT": "Параграф",
+                "max-length": 256
+            },
+            "link": {
+                "type": "link",
+                "GPT": "Ссылка",
+                "max-length": 32
+            }
+        }
+    }
+}

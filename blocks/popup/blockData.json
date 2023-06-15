@@ -1,0 +1,27 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "BLOCK_features": {
+        "icon": {
+            "type": "icon",
+            "GPT": "Иконка"
+        },
+        "header": {
+            "type": "text",
+            "GPT": "Заголовок",
+            "max-length": 16
+        },
+        "paragraph": {
+            "type": "text",
+            "GPT": "Параграф",
+            "max-length": 32
+        }
+    },
+    "buttonClose": {
+        "type": "button",
+        "GPT": "Кнопка закрытия"
+    }
+}
