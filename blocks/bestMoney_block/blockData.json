@@ -1,0 +1,28 @@
+{
+    "BLOCK_money": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "header:": {
+                "type": "Text",
+                "alt": "",
+                "title": "",
+                "GPT":"Заголовок",
+                "max-length": 16
+            },
+            "pharagraph":{
+                "type":"text",
+                "GPT":"Текст",
+                "max-length": 24
+            },
+            "button":{
+                "type":"button",
+                "GPT":"кнопка"
+            },
+            "link_text":{
+                "type":"text",
+                "GPT":"Ссылка-текст"
+            }
+        }
+    }  
+}
