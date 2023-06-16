@@ -1,0 +1,6 @@
+{
+    "css":{
+        "bootstrap": "css/bootstrap.min.css",
+        "insurance": "css/insurance.css"
+    }
+}

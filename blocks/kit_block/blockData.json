@@ -1,0 +1,45 @@
+{
+    "heading": {
+        "type": "text",
+        "GPT": "Основной заголовок",
+        "max-length": 16
+    },
+    "BLOCK_title": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "header:": {
+                "type": "Text",
+                "alt": "",
+                "title": "",
+                "GPT":"Заголовок",
+                "max-length": 16
+            },
+            "pharagraph":{
+                "type":"text",
+                "GPT":"Текст",
+                "max-length": 256
+            },
+            "icon":{
+                "type":"icon",
+                "GPT":"Иконка"
+            }
+        },
+        "photo":{
+            "type":"image",
+            "GPT":"Картинка"
+        }
+    },
+    "BLOCK_icons":{
+        "type": "block",
+        "GPT": "Иконки сайта",
+        "includes": {
+        "icon:": {
+            "type": "icon",
+            "alt": "Icon",
+            "title": "Icon",
+            "GPT": "Иконки"
+        }
+        }
+    }  
+}
