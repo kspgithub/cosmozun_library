@@ -1,0 +1,46 @@
+{
+    "BLOCK_person": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "header:": {
+                "type": "Text",
+                "alt": "",
+                "title": "",
+                "GPT":"Заголовок",
+                "max-length": 16
+            },
+            "photo-person":{
+                "type":"image",
+                "GPT":"Картинка"
+            },
+            "name_person":{
+                "type":"text",
+                "GPT":"Текст",
+                "max-length": 24
+            },
+            "pharagraph":{
+                "type":"text",
+                "GPT":"Текст",
+                "max-length": 256
+            }
+        }
+    },
+    "BLOCK-link_text":{
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "header:": {
+                "type": "Text",
+                "alt": "",
+                "title": "",
+                "GPT":"Текст-ссылка",
+                "max-length": 24
+            },
+            "photos-book":{
+                "type":"image",
+                "GPT":"Картинки"
+            }
+        }
+    }  
+}
