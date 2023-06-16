@@ -1,0 +1,38 @@
+{
+    "BLOCK_text":{
+        "type": "block",
+        "GPT": "Инфомация",
+        "includes": {
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "question":{
+                "type":"text",
+                "GPT":"Текст"
+            },
+            "pharagrah(numbers)":{
+                "type":"text",
+                "GPT":"Инфомация"
+            },
+            "button_email":{
+                "type":"button",
+                "GPT":"Кнопка"
+            }
+        }
+    },
+       
+    "BLOCK_image":{
+        "type":"block",
+        "GPT":"Информация",
+        "includes":{
+            "image":{
+                "type":"image",
+                "alt":"Image",
+                "title":"Image",
+                "GPT":"Картинка"
+            }
+        }
+    }
+}
