@@ -1,0 +1,29 @@
+{
+    "header": {
+        "type": "text",
+        "GPT": "Заголовок",
+        "max-length": 16
+    },
+    "Title":{
+        "type":"text",
+        "GPT":"Основной заголовок",
+        "max-length": 24
+    },
+    "inform":{
+        "type":"text",
+        "GPT":"Инфомация",
+        "max-length": 64
+    },
+
+    "BLOCK_text":{
+        "type": "block",
+        "GPT": "Инфомация",
+        "includes": {
+            "paragraph": {
+                "type": "text",
+                "GPT": "Текст",
+                "max-length": 256
+            } 
+        }
+    }
+}

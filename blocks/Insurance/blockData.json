@@ -1,0 +1,42 @@
+{
+    "BLOCK_title": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "header:": {
+                "type": "Text",
+                "alt": "",
+                "title": "",
+                "GPT":"Заголовок"
+            },
+            "heading": {
+                "type": "text",
+                "GPT": "Основной заголовок",
+                "max-length": 16
+            }
+        }
+    },
+    "BLOCK_card": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "icon:": {
+                "type": "image",
+                "alt": "Icon",
+                "title": "Icon",
+                "GPT": "Иконка"
+            },
+            "header:": {
+                "type": "text",
+                "GPT": "Заголовок карточки",
+                "max-length": 24
+            },
+            "pharagraph":{
+            "type":"text",
+            "GPT":"Информация",
+            "max-length": 124
+            }
+            
+        }
+    }
+}

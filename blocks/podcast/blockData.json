@@ -1,0 +1,34 @@
+{
+    "BLOCK_text":{
+        "type": "block",
+        "GPT": "Инфомация",
+        "includes": {
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "heading": {
+                "type": "text",
+                "GPT": "Основной заголовок",
+                "max-length": 16
+            },
+            "Button_listen":{
+                "type":"button",
+                "GPT":"Кнопка"
+            },
+            "Button_next":{
+                "type":"button",
+                "GPT":"Кнопка"
+            },
+            "numbers_Listeners":{
+                "type":"text",
+                "GPT":"Текст"
+            },
+            "numbers_Followers":{
+                "type":"text",
+                "GPT":"Текст"
+            }
+        }
+    }
+}
